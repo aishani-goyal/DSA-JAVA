@@ -18,9 +18,8 @@ public class diagonalSum {
 
             sum += arr[i][i];  //Primary Diagonal
 
-            if (i != arr.length-1-i){   //Secondary Diagonal
-
-                sum += arr[i][arr.length-1-i];
+            if (i != arr.length-1-i){   
+                sum += arr[i][arr.length-1-i];  // Secondary Diagonal
             }
         }
 
