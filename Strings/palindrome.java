@@ -2,7 +2,7 @@ public class palindrome {
 
     public static boolean isPalindrome(String str){
 
-        for (int i=0; i<str.length()/2; i++){
+        for (int i=0; i<str.length()/2; i++){   //Time Complexity: O(n)
             int n = str.length();
             if(str.charAt(i) != str.charAt(n-1-i)){
                 return false;
