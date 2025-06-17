@@ -1,7 +1,7 @@
 public class largestString {
 
     public static void main(String[] args) {
-        String fruits[] = {"apple", "mango", "banana"};   // Lexigographical Order Largest String
+        String fruits[] = {"apple", "mango", "banana"};   // Lexicographical Order Largest String
 
         String largest = fruits[0];
         for (int i=1; i<fruits.length; i++){
@@ -9,7 +9,9 @@ public class largestString {
                 largest = fruits[i];
             }
         }
-        System.out.println(largest);
+
+        //Time Complexity: O(X * N)  -> X: length of largest string, N: No. of Strings
+        System.out.print(largest);
     }
     
 }
