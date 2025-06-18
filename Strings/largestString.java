@@ -10,7 +10,7 @@ public class largestString {
             }
         }
 
-        //Time Complexity: O(X * N)  -> X: length of largest string, N: No. of Strings
+        //Time Complexity: O(x * N)  -> x: length of largest string, N: No. of Strings
         System.out.print(largest);
     }
     
