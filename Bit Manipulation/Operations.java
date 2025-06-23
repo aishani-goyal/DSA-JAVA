@@ -31,8 +31,13 @@ public class Operations {
         return (n | bitMask);
     }
 
+    public static int clearIBits(int n, int i){
+        int bitMask = (~0)<<i;    // (~0 << i) or (-1 << i)
+        return (n & bitMask);
+    }
+
     public static void main(String[] args) {
-        System.out.println(updateithBit(10, 2, 1));
+        System.out.println(clearIBits(15, 2));
         
     }
     
