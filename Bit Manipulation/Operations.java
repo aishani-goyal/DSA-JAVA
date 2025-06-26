@@ -62,7 +62,7 @@ public class Operations {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSetBits(27));
+        System.out.println(countSetBits(29));
 
     }
 
