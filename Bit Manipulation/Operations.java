@@ -76,7 +76,7 @@ public class Operations {
     }
 
     public static void main(String[] args) {
-        System.out.println(fastExpo(4, 5));
+        System.out.println(fastExpo(2, 5));
 
     }
 
