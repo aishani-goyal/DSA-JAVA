@@ -29,7 +29,7 @@ public class butterfly {
             }
         }
         public static void main(String[] args){
-            pattern(4);
+            pattern(3);
         }
     
 }
