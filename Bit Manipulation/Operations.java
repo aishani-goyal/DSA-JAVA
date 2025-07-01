@@ -1,5 +1,4 @@
 public class Operations {
-
     public static int getithBit(int n, int i) {
         int bitMask = 1 << i;
         if ((n & bitMask) == 0) {
@@ -77,7 +76,6 @@ public class Operations {
 
     public static void main(String[] args) {
         System.out.println(fastExpo(9, 8));
-
     }
 
 }
