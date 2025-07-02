@@ -28,7 +28,7 @@ public class searchKey {
                 { 27, 29, 37, 48},
                 { 32, 33, 39, 50}};
 
-        int key = 35;
+        int key = 45;
         staircaseSearch(matrix, key);
     }
     
