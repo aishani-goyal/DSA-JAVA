@@ -9,7 +9,7 @@ public class FirstClass {
 
         BankAccount myAcc = new BankAccount();
         myAcc.username = "aishaniGoyal";
-        myAcc.setPassword("abcdefg");
+        myAcc.setPassword("abcdefgh");
     }
 
 }
