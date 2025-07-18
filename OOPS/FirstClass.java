@@ -8,7 +8,7 @@ public class FirstClass {
         System.out.println(p1.tip);
 
         BankAccount myAcc = new BankAccount();
-        myAcc.username = "aishaniGoyal";
+        myAcc.username = "user1";
         myAcc.setPassword("abcdef");
     }
 
