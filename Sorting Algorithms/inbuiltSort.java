@@ -12,7 +12,7 @@ public class inbuiltSort {
     }
 
     public static void main(String[] args) {
-        Integer arr[] = { 5, 4, 1, 3, 2 };
+        Integer arr[] = { 5, 8, 1, 3, 2 };
 
         //Arrays.sort(arr);   //by default sort in ascending
 
