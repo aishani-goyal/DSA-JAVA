@@ -27,7 +27,7 @@ public class maxSubarraySum {
         }
 
         public static void main (String[] args){
-            int nums[] = {32, 21, 16, 26, 32};
+            int nums[] = {32, 23, 16, 26, 32};
             maxSum(nums);
 
         }
