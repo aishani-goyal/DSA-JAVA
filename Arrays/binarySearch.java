@@ -58,7 +58,7 @@ public class binarySearch{
         return -1;
     }
     public static void main (String args[]){
-        int arr[] = {23, 34, 45, 56, 67};
+        int arr[] = {27, 34, 45, 56, 67};
         int key = 34;
 
         System.out.println("Key found at index " + findKey(arr, key));
